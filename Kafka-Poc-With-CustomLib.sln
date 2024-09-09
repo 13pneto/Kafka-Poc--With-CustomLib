@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Kafka-Receiver", "Kafka-Receiver\Kafka-Receiver.csproj", "{C0525A9F-22B3-47EF-8B23-5EFAC2A1FB10}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Kafka-Producer", "Kafka-Producer\Kafka-Producer.csproj", "{6FF82450-3723-4CF2-A7D0-0B2125656B03}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ServiceBus-Custom-Lib", "ServiceBus-Custom-Lib\ServiceBus-Custom-Lib.csproj", "{FD799448-6FA0-4FE6-A317-A0FA52AFD5B1}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C0525A9F-22B3-47EF-8B23-5EFAC2A1FB10}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C0525A9F-22B3-47EF-8B23-5EFAC2A1FB10}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C0525A9F-22B3-47EF-8B23-5EFAC2A1FB10}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C0525A9F-22B3-47EF-8B23-5EFAC2A1FB10}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6FF82450-3723-4CF2-A7D0-0B2125656B03}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6FF82450-3723-4CF2-A7D0-0B2125656B03}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6FF82450-3723-4CF2-A7D0-0B2125656B03}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6FF82450-3723-4CF2-A7D0-0B2125656B03}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FD799448-6FA0-4FE6-A317-A0FA52AFD5B1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FD799448-6FA0-4FE6-A317-A0FA52AFD5B1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FD799448-6FA0-4FE6-A317-A0FA52AFD5B1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FD799448-6FA0-4FE6-A317-A0FA52AFD5B1}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
